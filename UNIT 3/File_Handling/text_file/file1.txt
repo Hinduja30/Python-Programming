@@ -1,0 +1,3 @@
+This file is been created to understand how the read functions of python work for the text file.
+this will be helpfull to understand the different parameters and working of the functions.
+so come on lets explore.

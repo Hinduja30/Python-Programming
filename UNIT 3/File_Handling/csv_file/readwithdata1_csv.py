@@ -18,3 +18,4 @@ with open(path , 'r') as file:
     reader1 = csv.DictReader(file , delimiter=";")
     for row in reader1:
         print(row)
+

@@ -1,31 +1,21 @@
-# Security Policy
+MIT License
 
-## Supported Versions
+Copyright (c) 2026 Hinduja30
 
-We actively monitor and provide security updates for the following versions of the project. We recommend all users stay on the latest stable release to ensure the highest level of security.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-| Version | Supported          | Notes                                         |
-| ------- | ------------------ | --------------------------------------------- |
-| 5.1.x   | :white_check_mark: | Current Stable Release                        |
-| 5.0.x   | :x:                | End of Life (Upgrade to 5.1.x)                |
-| 4.0.x   | :white_check_mark: | Long-Term Support (LTS)                       |
-| < 4.0   | :x:                | No longer supported                           |
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Reporting a Vulnerability
-
-We take the security of our code and our users' data seriously. If you find a security vulnerability, please do not open a public issue. Instead, follow the steps below:
-
-### How to report
-1. **Email:** Please send a detailed report to **[Your-Email-Here]** (e.g., your GitHub-linked email).
-2. **Details to include:** - A description of the vulnerability.
-   - Steps to reproduce the issue (PoC).
-   - Potential impact if exploited.
-
-### What to expect
-- **Acknowledgement:** You will receive an initial response within **48 hours** confirming we have received the report.
-- **Updates:** We will provide status updates at least once every **week** until the issue is resolved.
-- **Public Disclosure:** Once a fix is verified and merged, we will coordinate a public disclosure and give you credit for the discovery (if desired).
-
-## Preferred Practices
-- **Dependency Security:** We use automated tools (like Dependabot) to monitor vulnerabilities in Python packages. Please ensure your local environment is updated regularly.
-- **Code Review:** All pull requests are subject to security reviews to prevent the injection of malicious scripts or insecure coding patterns.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
